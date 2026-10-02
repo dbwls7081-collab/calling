@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Calling</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+      font-family: Arial, "Noto Sans KR", sans-serif;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 420px;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .call-button {
+      display: block;
+      width: 100%;
+      padding: 18px;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .number {
+      margin-top: 18px;
+      font-size: 17px;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Calling</h1>
+
+    <p>
+      전화 상담을 원하시면<br>
+      아래 버튼을 눌러주세요.
+    </p>
+
+    <a class="call-button" href="tel:02-322-1187">
+      📞 전화 상담하기
+    </a>
+
+    <div class="number">
+      02-322-1187
+    </div>
+  </div>
+
+</body>
+</html>
